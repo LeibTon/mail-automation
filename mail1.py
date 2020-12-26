@@ -1,4 +1,6 @@
-import smtplib, ssl, email
+import smtplib
+import ssl
+import email
 from socket import gaierror
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
